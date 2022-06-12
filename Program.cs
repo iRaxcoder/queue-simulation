@@ -69,9 +69,9 @@ void showQueueStadistics()
 {
     onLoadValues();
     Console.WriteLine("---SIMULACIÓN #" + numberOfTest++ +"\n");
-    Console.WriteLine("La tasa de llegadas de carros es de " + lambda + " por hora(lambda)\n");
+    Console.WriteLine("La tasa de llegadas de carros es de " + lambda + " por minuto(lambda)\n");
     Console.WriteLine("y su tiempo medio entre llegadas es de " + timeBetweenArrivals+"\n");
-    Console.WriteLine("Se atienden "+mu+ " carros por hora(µ)\n");
+    Console.WriteLine("Se atienden "+mu+ " carros por minuto(µ)\n");
     Console.WriteLine("La intensidad del tráfico es de "+p+"(p)\n");
     if (p < 1)
     {
