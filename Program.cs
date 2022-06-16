@@ -77,8 +77,8 @@ void showQueueStadistics()
     {
         Console.WriteLine("***La carretera o el sistema está actualmente estable ya que se tiene que el tráfico es menor a 1, es decir, " + p+" ***\n");
     }
-    Console.WriteLine("Se esperan "+L+" carros en la carretera(L)\n");
-    Console.WriteLine("Se esperan "+Lq+" carros en la cola(Lq)\n");
+    Console.WriteLine("Los carros esperan "+L+" minutos en la carretera(L)\n");
+    Console.WriteLine("Los carros esperan "+Lq+" minutos en la cola(Lq)\n");
     Console.WriteLine("Se debe esperar una media de "+W+" minutos en la carretera(W)");
     Console.WriteLine("Se debe esperar una media de "+Wq+" minutos en la cola(Wq)\n");
 
